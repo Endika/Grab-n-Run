@@ -1,13 +1,5 @@
 # ![Logo](https://github.com/lukeFalsina/Grab-n-Run/raw/master/gnr/app/src/main/res/drawable-mdpi/logo_with_name.png)
 
----
-## Hey Android developers, we need your help for an experiment, which involves DCL and Grab'n Run. ##
-For more details, check out this [post](https://t.co/6NRIbMeXeq).
-
-If you are curious or want to join the experiment, please get in touch with an email at lfalsina@gmail.com
-
----
-
 *Grab’n Run* (aka **GNR**) is a **simple** and **effective** Java Library that you can easily add to your Android projects to perform *secure dynamic class loading* operations over standard [DexClassLoader](http://developer.android.com/reference/dalvik/system/DexClassLoader.html).
 
 Previous research has shown that many applications often need to perform dynamic class loading to implement, for example, non-invasive self-update features. However, research has also shown that it is really challenging to *safely* implement these features. This is of particular importance as, in this context, **one single mistake** could open the application (and, therefore, the entire device) to **serious security vulnerabilities**, such as *remote code execution*.
@@ -25,7 +17,7 @@ Moreover, if you happened to spend a bit of time using *Grab'n Run*, we would be
 ## News
 
 - *01/17/2015* - **Grab'n Run** is now **available** on [JCenter](https://bintray.com/bintray/jcenter?filterByPkgName=grab-n-run)
-- *01/16/2015* - **Grab'n Run** project migrates to [Android Studio](http://developer.android.com/tools/studio/index.html), the new official *IDE* for **Android application development**. Anyway **Grab'n Run** library can still be used also with your *ADT* projects! (*see below the "Quick Setup" section for further details*)
+- *01/16/2015* - **Grab'n Run** project migrates to [Android Studio](http://developer.android.com/tools/studio/index.html), the official *IDE* for **Android application development**. However, you can still use the library also with your *ADT* projects! (*see below the "Quick Setup" section for further details*)
 - *11/26/2014* - **Grab'n Run is on line!**
 
 ## Main features
