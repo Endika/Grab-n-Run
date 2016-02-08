@@ -1,0 +1,12 @@
+.gradle/
+app/build/
+build/
+import-summary.txt
+local.properties
+
+## Directory-based project format:
+.idea/
+
+## IntelliJ config files
+*.iml
+
